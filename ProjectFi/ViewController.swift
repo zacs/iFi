@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         // Load web view
         let url = URL(string: "https://fi.google.com")
         let request = URLRequest(url: url!)
+        webView.contentMode = .scaleAspectFit
         webView.load(request)
     }
     

@@ -2,6 +2,10 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
+## Fabric
+Crashlytics.framework/
+Fabric.framework/
+
 ## Build generated
 build/
 DerivedData/
