@@ -14,8 +14,6 @@
 		11895E811D977D1E00B07275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11895E7F1D977D1E00B07275 /* LaunchScreen.storyboard */; };
 		11895E8C1D977D1E00B07275 /* ProjectFiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11895E8B1D977D1E00B07275 /* ProjectFiTests.swift */; };
 		11895E971D977D1E00B07275 /* ProjectFiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11895E961D977D1E00B07275 /* ProjectFiUITests.swift */; };
-		11F92B3F1D9A3BF100956BA5 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F92B3D1D9A3BF100956BA5 /* Fabric.framework */; };
-		11F92B401D9A3BF100956BA5 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F92B3E1D9A3BF100956BA5 /* Crashlytics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +47,6 @@
 		11895E921D977D1E00B07275 /* ProjectFiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectFiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11895E961D977D1E00B07275 /* ProjectFiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectFiUITests.swift; sourceTree = "<group>"; };
 		11895E981D977D1E00B07275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11F92B3D1D9A3BF100956BA5 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
-		11F92B3E1D9A3BF100956BA5 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +54,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11F92B401D9A3BF100956BA5 /* Crashlytics.framework in Frameworks */,
-				11F92B3F1D9A3BF100956BA5 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,8 +81,6 @@
 				11895E8A1D977D1E00B07275 /* ProjectFiTests */,
 				11895E951D977D1E00B07275 /* ProjectFiUITests */,
 				11895E741D977D1E00B07275 /* Products */,
-				11F92B3D1D9A3BF100956BA5 /* Fabric.framework */,
-				11F92B3E1D9A3BF100956BA5 /* Crashlytics.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -278,7 +270,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./Fabric.framework/run ***REMOVED*** 8e85ec764fb26fd6cf6f2c3fc6bda2a1908bb3ca97b5a9ad9e66ca66d47bb954";
+			shellScript = "";
 		};
 /* End PBXShellScriptBuildPhase section */
 
